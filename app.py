@@ -6,9 +6,6 @@ try:
 except ModuleNotFoundError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "folium"])
     import folium
-git add requirements.txt
-git commit -m "Add requirements.txt"
-git push origin main
 
 import streamlit as st
 import folium
