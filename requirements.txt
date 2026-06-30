@@ -1,5 +1,6 @@
 folium
 streamlit
-folium
-streamlit
 streamlit-folium
+matplotlib
+streamlit-autorefresh
+pandas
