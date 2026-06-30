@@ -6,7 +6,8 @@ try:
 except ModuleNotFoundError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "folium"])
     import folium
-
+import streamlit as st
+import folium
 import streamlit as st
 import folium
 from streamlit_folium import st_folium, folium_static
